@@ -184,13 +184,13 @@ export default function Header() {
               className="MobileNav__Logo"
             />
           </div>
-          <div className="MobileNav__Burger" onclick="openMobileNav()">
+          <div className="MobileNav__Burger">
             <i className="fas fa-bars"></i>
           </div>
         </section>
 
         <div id="MobileNav__NavContainer" className="MobileNav__NavContainer">
-          <div className="MobileNav__Close" onclick="closeMobileNav()">
+          <div className="MobileNav__Close">
             <i className="fas fa-times"></i>
           </div>
           <ul className="MobileNav__Nav">

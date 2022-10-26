@@ -23,7 +23,7 @@ export default function Contact() {
                   action="https://formspree.io/f/xdoyezer"
                   method="POST"
                 >
-                  <label for="name">Name*</label>
+                  <label htmlFor="name">Name*</label>
                   <input
                     name="name"
                     type="text"
@@ -37,7 +37,7 @@ export default function Contact() {
                       console.log;
                     }}
                   />
-                  <label for="email">Email Address*</label>
+                  <label htmlFor="email">Email Address*</label>
                   <input
                     name="email"
                     type="text"
@@ -51,7 +51,7 @@ export default function Contact() {
                       console.log;
                     }}
                   />
-                  <label for="phone">Phone Number*</label>
+                  <label htmlFor="phone">Phone Number*</label>
                   <input
                     name="phone"
                     type="text"
@@ -65,7 +65,7 @@ export default function Contact() {
                       console.log;
                     }}
                   />
-                  <label for="message">Message*</label>
+                  <label htmlFor="message">Message*</label>
                   <textarea
                     name="message"
                     type="textarea"
