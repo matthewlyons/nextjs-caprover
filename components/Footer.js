@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -18,36 +19,36 @@ export default function Footer() {
           </div>
           <div className="Footer__GridDivider"></div>
           <div className="Footer__RightContainer">
-            <a
+            <Link
               href="https://empirelodging.com/government-services/"
               title="Government Services"
             >
               <h3>Government Services</h3>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://empirelodging.com/corporate-housing/"
               title="Corporate Housing"
             >
               <h3>Corporate Housing</h3>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://empirelodging.com/emergency-lodging/"
               title="Emergency Lodging"
             >
               <h3>Emergency Lodging</h3>
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://empirelodging.com/business-travel/"
               title="Business Travel"
             >
               <h3>Business Travel</h3>
-            </a>
-            <a href="https://empirelodging.com/about/" title="About">
+            </Link>
+            <Link href="https://empirelodging.com/about/" title="About">
               <h3>About</h3>
-            </a>
-            <a href="https://empirelodging.com/contact/" title="Contact">
+            </Link>
+            <Link href="https://empirelodging.com/contact/" title="Contact">
               <h3>Contact</h3>
-            </a>
+            </Link>
           </div>
         </section>
         <div className="Footer__Logos">

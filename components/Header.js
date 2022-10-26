@@ -1,178 +1,180 @@
 import React from "react";
 
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header>
       <section className="DesktopNav__Container">
         <div className="DesktopNav__LogoContainer">
-          <a href="/">
+          <Link href="/">
             <img
               src="https://empirelodging.com/wp-content/uploads/2022/01/Empire-Logo-LS-C-Lodging.png"
               className="DesktopNav__Logo"
             />
-          </a>
+          </Link>
         </div>
         <nav className="DesktopNav__NavContainer">
           <ul className="DesktopNav__Nav">
             <li className="DesktopNav__Item ">
-              <a href="/" title="Home" className="DesktopNav__ItemLink ">
+              <Link href="/" title="Home" className="DesktopNav__ItemLink ">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="DesktopNav__Item ">
-              <a
+              <Link
                 href="https://empirelodging.com/government-services/"
                 title="Government Services"
                 className="DesktopNav__ItemLink "
               >
                 Government Services
-              </a>
+              </Link>
             </li>
             <li className="DesktopNav__Item DesktopNav__Item--HasChildren ">
-              <a
+              <Link
                 href="https://empirelodging.com/corporate-housing/"
                 title="Corporate Housing"
                 className="DesktopNav__ItemLink "
               >
                 Corporate Housing
-              </a>
+              </Link>
               <ul className="DesktopNav__SubMenu">
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/corporate-housing/"
                     title="Corporate Housing"
                   >
                     Corporate Housing
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/travel-nurse-housing/"
                     title="Healthcare and Medical Professionals"
                   >
                     Healthcare and Medical Professionals
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/furnishings/"
                     title="Furnishings"
                   >
                     Furnishings
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/corporate-housing-faqs/"
                     title="Corporate Housing FAQs"
                   >
                     Corporate Housing FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/corporate-housing-request-information/"
                     title="Corporate Housing Request Information"
                   >
                     Corporate Housing Request Information
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="DesktopNav__Item DesktopNav__Item--HasChildren ">
-              <a
+              <Link
                 href="https://empirelodging.com/emergency-lodging/"
                 title="Emergency Lodging"
                 className="DesktopNav__ItemLink "
               >
                 Emergency Lodging
-              </a>
+              </Link>
               <ul className="DesktopNav__SubMenu">
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/emergency-lodging/"
                     title="Emergency Lodging"
                   >
                     Emergency Lodging
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/emergency-lodging-faqs/"
                     title="Emergency Lodging FAQs"
                   >
                     Emergency Lodging FAQs
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="DesktopNav__Item DesktopNav__Item--HasChildren ">
-              <a
+              <Link
                 href="https://empirelodging.com/business-travel/"
                 title="Business Travel"
                 className="DesktopNav__ItemLink "
               >
                 Business Travel
-              </a>
+              </Link>
               <ul className="DesktopNav__SubMenu">
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/business-travel/"
                     title="Business Travel"
                   >
                     Business Travel
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/business-travel-request-information/"
                     title="Business Travel Request Information"
                   >
                     Business Travel Request Information
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="DesktopNav__Item DesktopNav__Item--HasChildren DesktopNav__Item--Edge ">
-              <a
+              <Link
                 href="https://empirelodging.com/about/"
                 title="About"
                 className="DesktopNav__ItemLink "
               >
                 About
-              </a>
+              </Link>
               <ul className="DesktopNav__SubMenu">
                 <li className="DesktopNav__SubMenuItem">
-                  <a href="https://empirelodging.com/about/" title="About">
+                  <Link href="https://empirelodging.com/about/" title="About">
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/meet-the-team/"
                     title="Meet the Team"
                   >
                     Meet the Team
-                  </a>
+                  </Link>
                 </li>
                 <li className="DesktopNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/articles-and-updates/"
                     title="Articles &amp; Updates"
                   >
                     Articles &amp; Updates
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="DesktopNav__Item DesktopNav__Item--Edge ">
-              <a
+              <Link
                 href="https://empirelodging.com/contact/"
                 title="Contact"
                 className="DesktopNav__ItemLink "
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -196,135 +198,135 @@ export default function Header() {
           </div>
           <ul className="MobileNav__Nav">
             <li className="MobileNav__Item">
-              <a href="/" title="Home" className="MobileNav__ItemLink">
+              <Link href="/" title="Home" className="MobileNav__ItemLink">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="MobileNav__Item">
-              <a
+              <Link
                 href="https://empirelodging.com/government-services/"
                 title="Government Services"
                 className="MobileNav__ItemLink"
               >
                 Government Services
-              </a>
+              </Link>
             </li>
             <li className="MobileNav__Item MobileNav__Item--HasChildren">
-              <a
+              <Link
                 href="https://empirelodging.com/corporate-housing/"
                 title="Corporate Housing"
                 className="MobileNav__ItemLink"
               >
                 Corporate Housing
-              </a>
+              </Link>
               <ul className="MobileNav__SubMenu">
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/travel-nurse-housing/"
                     title="Healthcare and Medical Professionals"
                   >
                     Healthcare and Medical Professionals
-                  </a>
+                  </Link>
                 </li>
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/furnishings/"
                     title="Furnishings"
                   >
                     Furnishings
-                  </a>
+                  </Link>
                 </li>
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/corporate-housing-faqs/"
                     title="Corporate Housing FAQs"
                   >
                     Corporate Housing FAQs
-                  </a>
+                  </Link>
                 </li>
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/corporate-housing-request-information/"
                     title="Corporate Housing Request Information"
                   >
                     Corporate Housing Request Information
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="MobileNav__Item MobileNav__Item--HasChildren">
-              <a
+              <Link
                 href="https://empirelodging.com/emergency-lodging/"
                 title="Emergency Lodging"
                 className="MobileNav__ItemLink"
               >
                 Emergency Lodging
-              </a>
+              </Link>
               <ul className="MobileNav__SubMenu">
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/emergency-lodging-faqs/"
                     title="Emergency Lodging FAQs"
                   >
                     Emergency Lodging FAQs
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="MobileNav__Item MobileNav__Item--HasChildren">
-              <a
+              <Link
                 href="https://empirelodging.com/business-travel/"
                 title="Business Travel"
                 className="MobileNav__ItemLink"
               >
                 Business Travel
-              </a>
+              </Link>
               <ul className="MobileNav__SubMenu">
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/business-travel-request-information/"
                     title="Business Travel Request Information"
                   >
                     Business Travel Request Information
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="MobileNav__Item MobileNav__Item--HasChildren">
-              <a
+              <Link
                 href="https://empirelodging.com/about/"
                 title="About"
                 className="MobileNav__ItemLink"
               >
                 About
-              </a>
+              </Link>
               <ul className="MobileNav__SubMenu">
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/meet-the-team/"
                     title="Meet the Team"
                   >
                     Meet the Team
-                  </a>
+                  </Link>
                 </li>
                 <li className="MobileNav__SubMenuItem">
-                  <a
+                  <Link
                     href="https://empirelodging.com/articles-and-updates/"
                     title="Articles &amp; Updates"
                   >
                     Articles &amp; Updates
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="MobileNav__Item">
-              <a
+              <Link
                 href="https://empirelodging.com/contact/"
                 title="Contact"
                 className="MobileNav__ItemLink"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
