@@ -8,10 +8,7 @@ export default function Header() {
       <section className="DesktopNav__Container">
         <div className="DesktopNav__LogoContainer">
           <Link href="/">
-            <img
-              src="https://empirelodging.com/wp-content/uploads/2022/01/Empire-Logo-LS-C-Lodging.png"
-              className="DesktopNav__Logo"
-            />
+            <img src="./Empire-Logo.webp" className="DesktopNav__Logo" />
           </Link>
         </div>
         <nav className="DesktopNav__NavContainer">

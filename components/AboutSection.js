@@ -6,8 +6,7 @@ export default function AboutSection() {
       <section
         className="Row__Container Row__Container--Light  Row__Container--Spacer Row__Container--BgImage"
         style={{
-          backgroundImage:
-            "url('https://empirelodging.com/wp-content/uploads/2021/04/Corp-Housing-3-scaled.jpeg')",
+          backgroundImage: "url('./HotelBG.webp')",
           backgroundPosition: "center",
         }}
       >
