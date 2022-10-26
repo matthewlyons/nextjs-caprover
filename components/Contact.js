@@ -34,6 +34,9 @@ export default function Contact() {
                     aria-required="true"
                     aria-invalid="false"
                     required=""
+                    onChange={() => {
+                      console.log;
+                    }}
                   />
                   <label for="email">Email Address*</label>
                   <input
@@ -45,6 +48,9 @@ export default function Contact() {
                     aria-required="true"
                     aria-invalid="false"
                     required=""
+                    onChange={() => {
+                      console.log;
+                    }}
                   />
                   <label for="phone">Phone Number*</label>
                   <input
@@ -56,6 +62,9 @@ export default function Contact() {
                     aria-required="true"
                     aria-invalid="false"
                     required=""
+                    onChange={() => {
+                      console.log;
+                    }}
                   />
                   <label for="message">Message*</label>
                   <textarea
@@ -68,6 +77,9 @@ export default function Contact() {
                     aria-invalid="false"
                     rows="10"
                     cols="50"
+                    onChange={() => {
+                      console.log;
+                    }}
                   ></textarea>
                   <div>
                     <button className="Button" type="submit">

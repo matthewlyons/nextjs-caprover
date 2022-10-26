@@ -9,7 +9,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Government Services</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2022/10/Military_Female_ThumbNail.jpg"
+              src="./GovernmentServices.webp"
               alt=""
               aria-label=""
             />
@@ -20,7 +20,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Emergency Lodging</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2021/04/BusinessTravel.jpg"
+              src="./BusinessTravel.webp"
               alt=""
               aria-label=""
             />
@@ -31,7 +31,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Corporate Housing</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2021/04/CorporateHousing.jpg"
+              src="./CorpHousing.webp"
               alt=""
               aria-label=""
             />
@@ -42,7 +42,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Business Travel</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2021/04/BusinessTraveler.jpg"
+              src="./BusinessTraveler.webp"
               alt=""
               aria-label=""
             />
@@ -53,7 +53,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Team Travel</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2021/11/Huddle.jpg"
+              src="./TeamTravel.webp"
               alt=""
               aria-label=""
             />
@@ -64,7 +64,7 @@ export default function Verticals() {
             <h1 className="Verticle__Text">Contact Us</h1>
             <img
               className="Verticle__Image"
-              src="https://empirelodging.com/wp-content/uploads/2021/11/Writing.jpg"
+              src="./Contact.webp"
               alt=""
               aria-label=""
             />

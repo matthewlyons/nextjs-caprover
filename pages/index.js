@@ -22,7 +22,7 @@ export default function Home() {
         position={"left"}
         header="Government Services."
         img={{
-          src: "https://empirelodging.com/wp-content/uploads/2021/04/GovernmentServicesSecondary.jpg",
+          src: "./GovernmentServicesSecondary.webp",
           alt: "Soldier looking towards US Flag",
         }}
       >
@@ -43,7 +43,7 @@ export default function Home() {
         position={"right"}
         header="Corporate Housing"
         img={{
-          src: "https://empirelodging.com/wp-content/uploads/2021/04/CorporateHousingSecondary.jpg",
+          src: "./CorpHousingSecondary.webp",
           alt: "Soldier looking towards US Flag",
         }}
       >
@@ -64,7 +64,7 @@ export default function Home() {
         position={"left"}
         header="Emergency Lodging"
         img={{
-          src: "https://empirelodging.com/wp-content/uploads/2021/04/EmergencyLodgingSecondary.jpg",
+          src: "./EmergencyLodgingSecondary.webp",
           alt: "Soldier looking towards US Flag",
         }}
       >
@@ -85,7 +85,7 @@ export default function Home() {
         position={"right"}
         header="Business Travel"
         img={{
-          src: "https://empirelodging.com/wp-content/uploads/2021/04/BusinessTravelSecondary.jpg",
+          src: "./BusinessTravelSecondary.webp",
           alt: "Soldier looking towards US Flag",
         }}
       >
@@ -105,7 +105,7 @@ export default function Home() {
         position={"left"}
         header="Team Travel"
         img={{
-          src: "https://empirelodging.com/wp-content/uploads/2021/11/AdobeStock_289511278-1-scaled.jpeg",
+          src: "./TeamTravelSecondary.webp",
           alt: "Soldier looking towards US Flag",
         }}
       >
