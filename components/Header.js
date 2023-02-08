@@ -20,7 +20,7 @@ export default function Header() {
             </li>
             <li className="DesktopNav__Item ">
               <Link
-                href="https://empirelodging.com/government-services/"
+                href="/government-services/"
                 title="Government Services"
                 className="DesktopNav__ItemLink "
               >
@@ -201,7 +201,7 @@ export default function Header() {
             </li>
             <li className="MobileNav__Item">
               <Link
-                href="https://empirelodging.com/government-services/"
+                href="/government-services"
                 title="Government Services"
                 className="MobileNav__ItemLink"
               >
