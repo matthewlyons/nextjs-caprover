@@ -1,10 +1,11 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Verticals() {
   return (
     <div className="wp-block-lazyblock-verticals lazyblock-verticals-Z19IzQw">
       <section className="Verticle__Container">
-        <a href="https://empirelodging.com/government-services/">
+        <Link href="https://empirelodging.com/government-services/">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Government Services</h1>
             <img
@@ -14,8 +15,8 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
-        <a href="https://empirelodging.com/emergency-lodging/">
+        </Link>
+        <Link href="https://empirelodging.com/emergency-lodging/">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Emergency Lodging</h1>
             <img
@@ -25,8 +26,8 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
-        <a href="/Corporate-housing">
+        </Link>
+        <Link href="/Corporate-housing">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Corporate Housing</h1>
             <img
@@ -36,8 +37,8 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
-        <a href="https://empirelodging.com/business-travel/">
+        </Link>
+        <Link href="https://empirelodging.com/business-travel/">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Business Travel</h1>
             <img
@@ -47,8 +48,8 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
-        <a href="https://empirelodging.com/team-travel/">
+        </Link>
+        <Link href="https://empirelodging.com/team-travel/">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Team Travel</h1>
             <img
@@ -58,8 +59,8 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
-        <a href="https://empirelodging.com/contact/" className="MobileOnly">
+        </Link>
+        <Link href="https://empirelodging.com/contact/" className="MobileOnly">
           <div className="Verticle__Item">
             <h1 className="Verticle__Text">Contact Us</h1>
             <img
@@ -69,7 +70,7 @@ export default function Verticals() {
               aria-label=""
             />
           </div>
-        </a>
+        </Link>
       </section>
     </div>
   );

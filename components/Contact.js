@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -92,12 +93,12 @@ export default function Contact() {
                 <div className="InfoCard__Inner">
                   <div className="InfoCard__Text">
                     <p>
-                      <a href="tel:+1-888-305-7101">+1-888-305-7101</a>
+                      <Link href="tel:+1-888-305-7101">+1-888-305-7101</Link>
                     </p>
                     <p>
-                      <a href="mailto:sales@ehotelgroup.com">
+                      <Link href="mailto:sales@ehotelgroup.com">
                         sales@ehotelgroup.com
-                      </a>
+                      </Link>
                     </p>
                   </div>
                 </div>
